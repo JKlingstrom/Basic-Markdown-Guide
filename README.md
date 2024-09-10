@@ -1,5 +1,4 @@
-# Basic Markdown Guide
-
+# Basic-Markdown-Guide
 This is a basic guide to get you started with markdown, but there's a lot more that can be done! <br>
 I also added a cheat-sheet [here](https://github.com/JKlingstrom/Basic-Markdown-Guide/blob/main/Markdown-Cheat-Sheet.pdf)
 
@@ -7,11 +6,12 @@ I also added a cheat-sheet [here](https://github.com/JKlingstrom/Basic-Markdown-
 
 - [Headers](#Headers)
 - [Formatting](#Formatting)
-	- [br](#br)
+	- [Breaks](#Breaks)
 - [Blocks](#Blocks)
 - [Lists](#Lists)
+	- [Unordered-Lists](#Unordered-Lists)
 - [Links](#Links)
-	- [ToC](#ToC)
+	- [ToC](#ToC) = ``[ToC](#ToC)``
 - [Tasks](#Tasks)
 - [Tables](#Tables)
 - [Code](#Code)
@@ -100,7 +100,7 @@ To make text strikethrough, use two tildes `~~` before and after the word or tex
 `~~strikethrough~~`  ➡ ~~strikethrough~~ <br>
 <br>
 
-## br
+## Breaks
 
 Sometimes you need more space between different pieces of text.
 
@@ -134,7 +134,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 <br>
 
 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
->Here we can see that the space between the two text's have increased and we can add how many `<br>` we want.
+>Here we can see that the space between the two text's have increased and we can add how many `<br>` tags as we want.
 
 
 
@@ -210,7 +210,11 @@ We can also create nested lists by starting as we did before and then adding a t
 		1. Item C
 		2. Item D
 
-We can also create unordered lists using either the `+` or `-` sign. Both symbols are interchangeable, so you can use whichever you prefer.
+
+## Unordered-Lists
+
+We can also create unordered lists using either the `+` or `-` sign. Both symbols are interchangeable, so you can use whichever you prefer.
+
 ```
 + Item 1
 - Item 2
@@ -297,7 +301,7 @@ By adding the following link to the Table-of-Contents, you can jump right back h
 > Summary:
 > 
 > 1. Add a header: `# Test`
-> 2. Add a link in the Table-of-Contents: `[Test](#Test)` This will make you jump to the `# Test` header in your document. Also, ensure you **don't** use special characters in header titles (e.g., `Test!`); the `!` will break the link. Additionally, note that in `[Test](#Test)` there is no space between `#` and `Test`, but when creating the header, a space is required.
+> 2. Add a link in the Table-of-Contents: `[Test](#Test)` This will make you jump to the `# Test` header in your document. Also, ensure you **don't** use special characters in header titles (e.g., `Test!`); the `!` will break the link. Additionally, note that in `[Test](#Test)` there is no space between `#` and `Test`, but when creating the header, a space is required. The header you want to go to **can't** have spaces in them, so instead of spaces use `-`
 
 
 
@@ -400,6 +404,3 @@ This will enable syntax highlighting for the specified programming language, mak
 ## Thanks!
 
 This was a very basic guide to Markdown, and there's a lot more that can be done! I'm still learning but wanted to share the basics to hopefully help others get started!
-
-
-
