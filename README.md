@@ -1,6 +1,6 @@
 # Basic Markdown Guide
 This is a basic guide to get you started with markdown, but there's a lot more that can be done! <br>
-I also added a cheat-sheet [here](https://github.com/JKlingstrom/Basic-Markdown-Guide/blob/main/Markdown Cheat-Sheet.pdf)
+I also added a cheat-sheet [here](https://github.com/JKlingstrom/Basic-Markdown-Guide/blob/main/Markdown/Cheat-Sheet.pdf)
 
 ## Table-of-Contents
 
